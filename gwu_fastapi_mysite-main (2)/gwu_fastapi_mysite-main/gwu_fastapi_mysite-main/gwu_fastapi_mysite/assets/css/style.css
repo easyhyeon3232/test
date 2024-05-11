@@ -870,7 +870,22 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/home-bg.jpg) no-repeat scroll  center center;
+
+.slider_section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 45px;
+  padding-bottom: 90px;
+}
+
+    background: url(../images/slider.jpg) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 300px;
@@ -886,7 +901,7 @@ Home Section style
     font-weight: 700;
 }
 .main_home .home_text h3{
-    font-size:24px;
+    font-size:30px;
     font-weight: 400;
 }
 .main_home .slick-dots li button::before {
